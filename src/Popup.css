@@ -1,0 +1,54 @@
+
+input{
+	margin: 10px;
+	height: 35px;
+	width: 65px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+
+}
+
+.userInput{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+h1{
+	text-align: center;
+	font-family: arimo;
+	color: honeydew;
+}
+
+.container{
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	align-items: space-around;
+	justify-content: center;
+}
+
+.btn-centre{
+	text-align: center;
+	margin-top: 10px;
+}
+.btn-centre button{
+	margin: 0 8px;
+}
+.modalBackground {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(200, 200, 200) !important;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .cancel-btn{
+	background-color: crimson;
+  }
